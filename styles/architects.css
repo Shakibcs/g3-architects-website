@@ -7,3 +7,72 @@
     font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+
+
+/******Common Classes ********/
+.primary-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 600;
+
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    
+}
+/****************************header*****************************/
+header{
+    background-color:  rgba(255, 144, 14, 0.10);
+
+}
+/*nav start*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.header-title{
+    color:  #131313);
+    font-family: Work Sans;
+    font-size: 1 rem;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+ul li a{
+    color: #424242);
+font-family: Work Sans;
+font-size: 3 rem;
+font-weight: 500;
+}                       /*nav end*/
+
+/*banner section start*/
+banner{}
+.banner-content {
+    width: 516px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1.banner-title{
+    color: var(--dark-01, #131313);
+    
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p.banner-description{
+    margin: 1.3em 0;
+    color: var(--dark-03, #727272);
+text-align: center;
+font-size: 1emx;
+font-weight: 400;
+}
+
